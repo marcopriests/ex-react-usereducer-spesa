@@ -1,14 +1,20 @@
-.container {
-  display: flex;
-  gap: 200px;
-}
-
 .list-item {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
+  margin: 20px 0;
 }
 
-.list-item p {
-  margin-right: 10px;
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-cart {
+  background-color: rgba(0, 128, 0, 0.411);
+}
+
+.remove-cart {
+  background-color: rgba(255, 0, 0, 0.411);
 }
