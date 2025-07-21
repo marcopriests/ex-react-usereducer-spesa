@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  gap: 200px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.list-item p {
+  margin-right: 10px;
+}
